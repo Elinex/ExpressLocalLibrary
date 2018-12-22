@@ -19,7 +19,7 @@ BookInstanceSchema
   return '/catalog/bookinstance/' + this._id;
 });
 
-// VIrtual for format the date
+// Virtual for format the date
 BookInstanceSchema
 .virtual('due_back_formatted')
 .get(function () {
